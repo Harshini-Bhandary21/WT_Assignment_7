@@ -1,0 +1,21 @@
+{
+  "name": "mern-student-system",
+  "version": "1.0.0",
+  "description": "MERN Student Management System (MongoDB, Express, React, Node)",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js",
+    "build": "npm --prefix client install && npm --prefix client run build",
+    "test": "node --test server/test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.4"
+  }
+}
